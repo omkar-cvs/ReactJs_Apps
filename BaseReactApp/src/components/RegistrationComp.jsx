@@ -11,6 +11,9 @@ const RegistrationComp = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    // console.log("Test the input name: ", e.target.name);
+    // console.log("Test the input value: ", e.target.value);
+
     setIsSubmitted(false);
     setFormData((prevData) => ({
       ...prevData,
@@ -36,33 +39,31 @@ const RegistrationComp = () => {
       {isSubmitted && (
         <p style={{ color: "green" }}>Form submitted successfully!</p>
       )}
-
-      <label>Id:</label>
-      <input
-        type="text"
-        name="id"
-        value={formData.id}
-        onChange={handleChange}
-      />
-      <br />
-      <label>Name:</label>
-      <input
-        type="text"
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-      />
-      <br />
-      <label>Designation:</label>
-      <input
-        type="text"
-        name="designation"
-        value={formData.designation}
-        onChange={handleChange}
-      />
-      <br />
-
       <form onSubmit={handleSubmit}>
+        <label>Id:</label>
+        <input
+          type="text"
+          name="id"
+          value={formData.id}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Name:</label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Designation:</label>
+        <input
+          type="text"
+          name="designation"
+          value={formData.designation}
+          onChange={handleChange}
+        />
+        <br />
         <button type="submit">Register</button>
       </form>
     </>

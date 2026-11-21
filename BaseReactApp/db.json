@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "password": "1234"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "RYaIKmGU76E"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "5ip24lirI6A"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "FWalYc8-xjs"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "9JexfBdTQ8c"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "QwLgneFCGeU"
+    },
+    {
+      "name": "omkar",
+      "email": "omkar@gmail.com",
+      "password": "1234",
+      "id": "hZ8ao31Si-g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

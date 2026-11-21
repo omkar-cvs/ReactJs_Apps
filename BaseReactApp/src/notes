@@ -1,0 +1,24 @@
+
+
+
+#json db:
+
+{
+  "users": [
+    {
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
+
+#--------------------------
+#installation 
+    npm install json-server
+    npx json-server db.json
+#for specific port
+    npx json-server db.json --port 3001
+
+#----------------------------
+
